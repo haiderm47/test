@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>David's Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 10px 0;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
+        }
+        section {
+            padding: 20px;
+            margin: 20px auto;
+            max-width: 800px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            text-align: center;
+            padding: 10px 0;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>David's Personal Webpage</h1>
+    </header>
+    <nav>
+        <a href="#about">About Me</a>
+        <a href="#portfolio">Portfolio</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Hello! I'm David, a social media manager with over 10 years of experience. I currently manage social accounts for five restoration companies, including one hazmat company. I am passionate about creating engaging content and building strong online communities. In addition to my professional work, I enjoy organizing events and spending time outdoors.</p>
+    </section>
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>EFMA Conference Trade Show Social Media Campaign - Managed social media for the EFMA Conference Trade Show, highlighting key events and individuals such as Velvet Cates, David Hart, and Tim Compton.</li>
+            <li>Summer BBQ Event - Organized and promoted a Summer BBQ event featuring food by Smoke n Bones and activities including balloon twisting, lawn games, a water park, and a playground.</li>
+            <li>ABK Sliders Display Ad - Created an 8-second looped display ad for ABK Sliders, showcasing their products in a dynamic and engaging way.</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>If you'd like to get in touch, please reach out via one of the methods below:</p>
+        <ul>
+            <li>Email: <a href="mailto:david@example.com">david@example.com</a></li>
+            <li>Phone: (123) 456-7890</li>
+            <li>LinkedIn: <a href="https://www.linkedin.com/in/david">linkedin.com/in/david</a></li>
+        </ul>
+    </section>
+    <footer>
+        <p>&copy; 2024 David's Personal Webpage</p>
+    </footer>
+</body>
+</html>
+
